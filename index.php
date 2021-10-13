@@ -1,5 +1,5 @@
 <?php
-// require_once './func.inc.php';
+require_once './func.inc.php';
 $update = file_get_contents('php://input');
 // file_put_contents('bot.txt',$update);
 $update = json_decode($update,TRUE);
