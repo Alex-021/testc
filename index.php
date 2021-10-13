@@ -25,3 +25,6 @@ if ($message == 'خوبی؟') {
 if ($message == 'slm') {
     sendMessage($chat_id, 'Really??? :O');
 }
+if ($message == 'عجب') {
+    sendMessage($chat_id, 'مش رجب :|');
+}
