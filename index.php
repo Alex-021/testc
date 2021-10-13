@@ -1,6 +1,6 @@
 <?php
 function sendMessage($chat_id, $message) {
-    $url = "https://api.telegram.org/bot2051670997:AAFfQ1soA-qMlJNGclkeTpRayA2Ni8pu2vI/sendMessage?chat_id=$chat_id&text=$message";
+    $url = "https://api.telegram.org/bot2081391287:AAHhRxBdd7aLNM2L3-M1gAVSZgcg3Od0_Y0/sendMessage?chat_id=$chat_id&text=$message";
     file_get_contents($url);
 }
 $update = file_get_contents('php://input');
