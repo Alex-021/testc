@@ -24,23 +24,3 @@ if ($message == 'سلام') {
 if ($message == 'خوبی؟') {
     sendMessage($chat_id, 'مرسی، تو چطوری؟');
 }
-
-// Create keyboard
-$keyboard = json_encode([
-    "inline_keyboard" => [
-        [
-            [
-                "text" => "Yes",
-                "callback_data" => "yes"
-            ],
-            [
-                "text" => "No",
-                "callback_data" => "no"
-            ],
-            [
-                "text" => "Stop",
-                "callback_data" => "stop"
-            ]
-        ]
-    ]
-]);
