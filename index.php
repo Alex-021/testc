@@ -23,5 +23,5 @@ if ($message == 'خوبی؟') {
     sendMessage($chat_id, 'مرسی، تو چطوری؟');
 }
 if ($message == 'slm') {
-    sendMessage($chat_id, 'مرسی، تو چطوری؟');
+    sendMessage($chat_id, 'Really??? :O');
 }
